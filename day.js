@@ -4,3 +4,7 @@ let dayName = (date) => {
 												 "Thursday", "Friday", "Saturday"];
 	return daysOfTheWeek[date.getDay()];
 }
+
+let greeting = (date) => {
+	return `Hello, world! Happy ${dayName(now)}.`;
+}
